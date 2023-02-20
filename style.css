@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@400;600&display=swap');
+
+}
+
+body {
+    background-color: #2B3467;
+    align-items: center;
+    font-family: 'Labrada', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #F5E9CF;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 4rem;
+}
+
+p {
+    font-size: 1rem;
+} 
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+
+/* Main */
+
+.drum {
+   margin: 6% auto 10%;
+}
+
+
+
+.drum-item {
+    height: 6rem;
+    width: 8rem;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #F16767;
+    margin: 1rem;
+    border: solid 7px #3E54AC;
+    border-radius: 7px;
+}
+
+
+
+
+.w {
+    background-image: url(./images/crash.png);
+ 
+}
+
+.a {
+    background-image: url(./images/kick.png);
+
+}
+
+.s {
+    background-image: url(./images/snare.png);
+
+}
+
+.d {
+    background-image: url(./images/tom1.png);
+
+}
+
+.j {
+    background-image: url(./images/tom2.png);
+
+}
+
+.k {
+    background-image: url(./images/tom3.png);
+
+}
+
+.l {
+    background-image: url(./images/tom4.png);
+
+}
+
+
+
+
+
+/* Footer */
+.footer {
+    padding-top: 6rem;
+} 
+
+.author {
+    color: #E96479;
+} 
